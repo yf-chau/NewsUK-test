@@ -1,4 +1,6 @@
 def duplicates (input_list):
+    # Use set to remove all duplicates
+    # If the len of the set is not the same as the input, there must be duplicates
     if len(input_list) != len(set(input_list)):
         print('Contains duplicates.')
     else:

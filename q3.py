@@ -1,4 +1,5 @@
 def search_char(string, target_char):
+    # Loop through the input string and compare each char with the target. Return index when the target char is found, else return -1.
     for index, char in enumerate(string):
         if target_char == char:
             return index

@@ -1,7 +1,9 @@
 def palindrome (input):
+    # check if input string is empty
     if input == '':
         print('Empty string')
         return;
+    # if not, compare the first char with the last char, the second char with the second last char etc...
     else:
         for i in range(0, int(len(input)//2)):
             if input[i] != input[-i-1]:
